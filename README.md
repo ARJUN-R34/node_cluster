@@ -1,6 +1,6 @@
 # Node Cluster
 
-### This is a PoC demonstrating the scaling of nodejs applications using clusters. The master process will spawn `n` child processes to distribute the load among the child processes to scale the single threaded nodejs applications.
+#### This is a PoC demonstrating the scaling of nodejs applications using clusters. The master process will spawn `n` child processes to distribute the load among the child processes to scale the single threaded nodejs applications.
 
 #### This application simply generates a random number and returns it as the API response in 10 seconds. The 10s delay is added to simulate the complexity of certain nodejs APIs and also to perform multiple concurrent requests.
 

@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_cluster",
+  "version": "1.0.0",
+  "description": "A PoC demonstrating scaling nodejs applications using cluster",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "cluster",
+    "scaling"
+  ],
+  "author": "Arjun Sasikumar (itsarjn@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
